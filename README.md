@@ -9,7 +9,7 @@ For your first time, be sure to configure Git on your machine (this only needs t
 
 `git config --global user.email "yourEmail"`
 
-### Once you're ready to go...
+### For the workshop, reference the below workflow...
 
 Your goal for this workshop is to (1) clone a repository to your system, (2) create a new file in your local repository , and (3) push it to the remote repository on Github.
 
