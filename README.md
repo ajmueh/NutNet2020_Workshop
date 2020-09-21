@@ -11,10 +11,25 @@ For your first time, be sure to configure Git on your machine (this only needs t
 
 ### Once you're ready to go...
 
-1. Use `git pull` to ensure your local repository is up to date.
+Your goal for this workshop is to (1) clone a repository to your system, (2) create a new file in your local repository , and (3) push it to the remote repository on Github.
 
-2. Create a new R file in the 'Analyses' folder, and name it something unique. 
-
-3. Using either a shell terminal or RStudio, commit and push your new file to the online repo. 
-
-4. Refresh the Github repo to ensure it worked! 
+1. Clone the repository.
+  - Open your shell terminal
+  - Navigate to whichever directory you'd like for your local repo 
+    - `cd [filepath]`
+  - `git clone [repo url]`
+  
+2. Create a new file
+  - Create a new file in the "Analyses" folder, or copy an existing file, and name it something unique (e.g. your name). Include in the file your favorite cuisine.
+  - If you want, use `git status` to check the status of your local repository. 
+  
+3. Commit and push your changes to the remote repository. You can do this either in the shell terminal or in RStudio. 
+  - First add files to be tracked and committed. 
+    - `git add [filename]` or `git add -A` in the terminal
+    - Check the associated box in RStudio
+  - Now commit your changes
+    - `git commit -m [message]` in the terminal
+  - Finally, push your changes to the remote repository.
+    - `git push` or `git push origin master` in the terminal
+    
+4. Refresh the remote repository on Github to ensure it worked!
