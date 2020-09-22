@@ -1,1 +1,1 @@
-print("I love Italian & French food")
+print("I love Italian food")
