@@ -33,3 +33,17 @@ Your goal for this workshop is to (1) clone a repository to your system, (2) cre
     - `git push` or `git push origin master` in the terminal
     
 4. Refresh the remote repository on Github to ensure it worked!
+
+## Making changes with RStudio rather than through the terminal
+
+1) Open the .RProj (always open the project file, don't just open individual files)
+
+2) Pull! Always pull before you make changes, and before you push.  You can pull by clicking on the blue down button on the Git tab of RStudio.
+
+3) Make your changes. You should see the changes appear in the Git window in the upper right of RStudio.
+
+4) Stage/add your changes. In RStudio, this can be done by clicking on the Staged checkbox in the Git tab.  
+
+5) Commit your changes. Click on the Commit button in the Git tab, then add a message that succinctly describes your changes, and press Commit.  
+
+6) Push your changes. Click on the green up arrow. It may ask you for your Github user name and password. I recommend pulling one more time before you do this!
